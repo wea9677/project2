@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YES24영화</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+    <script type="text/javascript" src="javascript/jquery-1.12.3.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script><!-- 슬라이딩배너 -->
+    <script>
+        // Can also be used with $(document).ready()
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide"
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+
+        <!--해드부분-->
+        <header id="header">
+            <h3><img src="img/logo.png" alt="로고"></h3>
+            <div class="header_t">
+                <ul class="left_t">
+                    <li><a href="#">YES24</a></li>
+                    <li><a href="#">공연</a></li>
+                    <li><a href="#">별사탕</a></li>
+                </ul>
+                <ul class="right_t">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+
+            </div>
+            <div class="header_set">
+                <ul class="main_nav">
+
+                    <li><a href="#">예매</a>
+                        <div class="line1"></div>
+
+                    </li>
+                    <li><a href="#">영화</a>
+                        <div class="line2"></div>
+
+                    </li>
+                    <li><a href="#">이벤트</a>
+                        <div class="line3"></div>
+
+                    </li>
+                    <li><a href="#">매거진</a>
+                        <div class="line4"></div>
+
+                    </li>
+                    <li><a href="#">무비기프트</a>
+                        <div class="line5"></div>
+                    </li>
+
+                    <li><a href="#">다운로드</a>
+                        <div class="line6"></div>
+                    </li>
+                </ul>
+
+                <div class="submenu_b">
+                    <ul class="submenu">
+                        <li><a href="#">빠른예매</a></li>
+                        <li><a href="#">예매안내</a></li>
+                        <li><a href="#">예매권 등록</a></li>
+                    </ul>
+
+                    <ul class="submenu">
+                        <li><a href="#">예매순위</a></li>
+                        <li><a href="#">현재개봉작</a></li>
+                        <li><a href="#">개봉예정작</a></li>
+                        <li><a href="#">박스오피스</a></li>
+                        <li><a href="#">영화제영화</a></li>
+                        <li><a href="#">예고편</a></li>
+                    </ul>
+
+                    <ul class="submenu">
+                        <li><a href="#">시사회</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">당첨자 발표</a></li>
+                    </ul>
+
+                    <ul class="submenu">
+                        <li><a href="#">뉴스</a></li>
+                        <li><a href="#">스타</a></li>
+                        <li><a href="#">금주의 폴</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </header>
+
+        <!--메인이미지-->
+        <article id="main_img">
+            <div id="banner">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="img/main_img.jpg">
+                        </li>
+                        <li>
+                            <img src="img/main_img2.jpg">
+                        </li>
+                        <li>
+                            <img src="img/main_img3.jpg">
+                        </li>
+                        <li>
+                            <img src="img/main_img4.jpg">
+                        </li>
+                    </ul>
+                   
+                    <div class="flex-direction-nav">
+                        <ul class="flex-direction-nav">
+                            <li class="flex-nav-prev">
+                                <a class="flex-prev" href="#">
+                                    ::before
+                                    "Previous"
+                                </a>
+                            </li>
+
+                            <li class="flex-nav-next">
+                                <a class="flex-prev" href="#">
+                                    ::after
+                                    "Next"
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </article>
+
+        <!--컨텐츠-->
+        <main id="contents">
+            <div class="event">
+                <div class="event_btn">
+                    <ul>
+                        <li><a href="#"><img src="img/Ellipse%201.png" alt="버튼2"></a></li>
+                        <li><a href="#"><img src="img/Ellipse%202.png" alt="버튼3"></a></li>
+                        <li><a href="#"><img src="img/Ellipse%202.png" alt="버튼4"></a></li>
+                        <li><a href="#"><img src="img/Ellipse%202.png" alt="버튼5"></a></li>
+                    </ul>
+                </div>
+                <div class="event_set">
+                    <h4>EVENT</h4>
+                    <img src="img/event2.jpg" alt="이벤트">
+
+                </div>
+
+            </div>
+            <div class="movie">
+                <div class="prevent"><a href="#"><img src="img/pre.png" alt="화살표 1"></a></div>
+                <div class="next"><a href="#"><img src="img/next.png" alt="화살표 2"></a></div>
+                <div class="movie_set">
+
+                    <h4>극장 상영작</h4>
+                    <ul>
+                        <li><a href="#">개봉순</a></li>
+                        <li><a href="#">박스오피스</a></li>
+                        <li><a href="#">예매율</a></li>
+                        <li><a href="#">상영예정작</a></li>
+                    </ul>
+                    <div class="movie1"><a href="#"><img src="img/movie1.jpg" alt="오케이마담"></a>
+                        <div class="movie1_in">
+                            <div>
+                                <p><a href="#">예매하기</a></p>
+                            </div>
+                            <div>
+                                <p><a href="#">영화정보</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie2"><img src="img/movie2.jpg" alt="테넷">
+                        <div class="movie2_in">
+                            <div>
+                                <p><a href="#">예매하기</a></p>
+                            </div>
+                            <div>
+                                <p><a href="#">영화정보</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie3"><img src="img/movie3.jpg" alt="다악구">
+                        <div class="movie3_in">
+                            <div>
+                                <p><a href="#">예매하기</a></p>
+                            </div>
+                            <div>
+                                <p><a href="#">영화정보</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie4"><img src="img/movie4.jpg" alt="강철비2">
+                        <div class="movie4_in">
+                            <div>
+                                <p><a href="#">예매하기</a></p>
+                            </div>
+                            <div>
+                                <p><a href="#">영화정보</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie5"><img src="img/movie5.jpg" alt="짱구">
+                        <div class="movie5_in">
+                            <div>
+                                <p><a href="#">예매하기</a></p>
+                            </div>
+                            <div>
+                                <p><a href="#">영화정보</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie6"><img src="img/movie6.jpg" alt="69세">
+                        <div class="movie6_in">
+                            <div>
+                                <p><a href="#">예매하기</a></p>
+                            </div>
+                            <div>
+                                <p><a href="#">영화정보</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie7"><img src="img/movie7.jpg" alt="이장">
+                        <div class="movie7_in">
+                            <div>
+                                <p><a href="#">예매하기</a></p>
+                            </div>
+                            <div>
+                                <p><a href="#">영화정보</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie8"><img src="img/movie8.jpg" alt="이별식당">
+                        <div class="movie8_in">
+                            <div>
+                                <p><a href="#">예매하기</a></p>
+                            </div>
+                            <div>
+                                <p><a href="#">영화정보</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie9"><img src="img/movie9.jpg" alt="남매의 여름밤">
+                        <div class="movie9_in">
+                            <div>
+                                <p><a href="#">예매하기</a></p>
+                            </div>
+                            <div>
+                                <p><a href="#">영화정보</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mo">
+                        <div class="mo_b">
+                            <h4>예고편 보기</h4>
+                            <h5><a href="#"><img src="img/play.png" alt="플레이버튼"></a></h5>
+                        </div>
+                        <img src="img/mo.png" alt="예고편">
+                    </div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="prevent2"><a href="#"><img src="img/pre.png" alt="화살표 3"></a></div>
+                <div class="next2"><a href="#"><img src="img/next.png" alt="화살표 4"></a></div>
+                <div class="down_set">
+                    <h4>BEST 다운로드</h4>
+                    <div class="down1"><a href="#"><img src="img/down.jpg" alt="소리꾼"></a></div>
+                    <div class="down2"><a href="#"><img src="img/down1.jpg" alt="반도"></a></div>
+                    <div class="down3"><a href="#"><img src="img/down2.jpg" alt="살아있다"></a></div>
+                    <div class="down4"><a href="#"><img src="img/down3.jpg" alt="파리의인어"></a></div>
+                    <div class="down5"><a href="#"><img src="img/down4.jpg" alt="빅샤크3"></a></div>
+                    <div class="down6"><a href="#"><img src="img/down5.jpg" alt="비바리움"></a></div>
+
+                </div>
+            </div>
+            <div class="news">
+                <div class="news_set">
+                    <h4>YES24 영화소식</h4>
+
+                    <div class="news_box1">
+                        <h4>공지사항</h4>
+                        <div class="news_l1"></div>
+                        <p>[알림] CGV극장 시스템<br>
+                            점검 안내 (09/08, 09/15)</p>
+                        <a href="#">더보기</a>
+                    </div>
+                    <div class="news_box2">
+                        <img src="img/news.jpg" alt="뉴스">
+                        <div class="news_box2_t">
+                            <h4>뉴스</h4>
+                            <div class="news_l2"></div>
+                            <p>＜나를 구하지 마세요＞<br>
+                                미공개 스틸컷 공개!</p>
+                            <a href="#">더보기</a>
+                        </div>
+                    </div>
+                    <div class="news_box3">
+                        <img src="img/star.jpg" alt="스타">
+                        <div class="news_box3_t">
+                            <h4>스타</h4>
+                            <div class="news_l3"></div>
+                            <p>유이,SNS를 통해 공개된<br>
+                                '블랙슈트 룩'화제</p>
+                            <a href="#">더보기</a>
+                        </div>
+                    </div>
+                    <div class="news_box4">
+                        <img src="img/pool.jpg" alt="풀">
+                        <div class="news_box4_t">
+                            <h4>금주의 영화 폴</h4>
+                            <div class="news_l4"></div>
+                            <p>9월3일 개봉작<br>
+                                ＜하워즈 엔드＞가 보고 싶은 이유는?</p>
+                            <a href="#">더보기</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="q_btn">
+                <div class="q_btn_set">
+                    <ul class="btn">
+                        <li>
+                            <div class="btn_box1">
+                                <h4>1:1상담</h4>
+                                <div class="img_box">
+                                <img src="img/call.png" alt="1:1상담">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="btn_box2">
+                                <h4>FAQ</h4>
+                                <a href="#"><img src="img/qna.png" alt="faq"></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="btn_box3">
+                                <h4>영화예매</h4>
+                                <a href="#"><img src="img/ticket.png" alt="영화예매"></a>
+                            </div>
+                        </li>
+
+                        <li>
+
+                            <div class="btn_box4">
+                                <h4>극장안내</h4>
+                                <a href="#"><img src="img/holl.png" alt="극장안내"></a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <!--풋터-->
+        <footer id="footer">
+            <div class="footer_set">
+                <ul class="footer_nav">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">청소년보호정책</a></li>
+                    <li><a href="#">영화예매권</a></li>
+                    <li><a href="#">구매문의</a></li>
+                </ul>
+                <p>예스이십사(주)<br>
+                    서울시 영등포구 은행로11, 5층, 6층, 8층(여의도동, 일신빌딩)<br>
+                    대표 : 김석환 <span>개인정보책임자 : 권민석 yes24help@yes24.com</span><br>
+                    사업자등록번 : 229-81-37000
+                    <span>통신판매업신고 : 제 2005-02682호 사업자 정보확인</span><br>
+                    Copyright ⓒYES24 Corp.All Rights Reserved.</p>
+            </div>
+            <h3><a href="#"><img src="img/footer_logo.png" alt="풋터로고"></a></h3>
+            <div class="footer_l"></div>
+            <div class="text">
+                <h4>영화예매 / 다운로드 문의</h4>
+                <p><span>1544-7758</span><br>
+                    평일:9시~12시, 13시~18시<br>
+                    주말/휴일:10시~12시, 13시~17시<br>
+                    (단,다운로드는 주말/공휴일 휴무)</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,339 @@
+#sub_img{width:100%; height:448px; 
+        background:url(../img/subimg.jpg)no-repeat 0 50%;}
+
+#sub_img h4{color:#ffffff; font-size:50px; text-align: center;
+            padding-top:130px;}
+
+#sub_contents{width:100%; height:1841px; background-color:#f1efef;
+             position:relative;}
+.sub_c_set{width:1280px; height:770px; margin:0 auto;}
+.sub_c_set>h4{color:#333333; text-align: center; font-size:28px;
+              padding-top:80px;}
+.movie_list{width:1600px; height:500px; position:absolute;
+             top:220px; left:250px;}
+.movie_list>a{padding-right:10px; padding-left:10px;}
+.movie_list>a:first-child{padding-left:0px;}
+.prevent{width:34px; height:74px; position:absolute; left:-80px; top:150px;}
+.next{width:34px; height:74px; position: absolute; right:120px; top:150px;}
+
+.review{width:740px; height:112px; padding-top:40px;}
+.line{width:100px; height:2px; background-color:#8c0404;}
+.review>p{padding-top:10px;}
+
+.after_menu{width:1466px; height:1040px; margin:120px auto; position:relative;}
+/*극장선택*/
+.theater{width:707px; height:550px; position:absolute; background-color:#ffffff; }
+.theater_t{position:absolute; top:-35px;}
+.theater_t:after{clear: both; content:""; display: inline-block;}
+.theater_t>h4{font-size:19px; float:left;}
+.theater_t>a{display: block; float:left; margin-left: 60px;}
+
+.t_list:after{clear: both; content:""; display: inline-block;}
+.t_list>li{float:left; width:141.2px; height:70px; text-align: center;
+           background-color:#fff;
+           border-bottom: 1px solid #333333; box-sizing: border-box;}
+.t_list>li:last-child{border-right:0px;}
+.t_list>li>a{display:block; color:#333333; line-height: 25px;
+            border-right:1px solid #333333; 
+            padding-right:10px; margin-top:15px;
+            padding-left:10px;}
+.t_list>li .last{border:0px;}
+.t_list>li:hover{transition:0.3s; background-color:#f53e06;}
+.t_list>li>a:hover{color:#fff;}
+.my{width:707px; height:97px; border-bottom:1px solid #333333;
+     float:left;}
+.my>h3{text-align: center; padding-top:40px; padding-left:0px;
+       height:97px; border-right:1px solid #333333; width:252px;}
+
+
+.local{width: 252px; height:383px; float:left;
+        border-right:1px solid #333333;}
+.local:after{clear: both; content:""; display: inline-block;}
+.local>li{height:48px; width:252px; margin-top:px; 
+          }
+.local>li>p{text-align: center; line-height: 45px;}
+.local>li>p>a{color:#333333;}
+.local>li:hover{background-color:#bbbbbb; font-weight: bold;}
+
+.local>li>a{display: block; color:#333333;}
+.theater_list{float:left;}
+.theater_list:after{clear: both; content:""; display: inline-block;}
+.theater_list>li{ width:454px; height:50px;}
+.theater_list>li:hover{background-color:#f53e06;}
+.theater_list>li>p{text-align: left; padding-left:20px;}
+.theater_list>li>p>a{display: block; color:#333333; padding-top:10px;}
+.theater_list>li>p>a:hover{color:#fff;}
+
+/*날짜선택*/
+.date{width:707px; height:550px; position:absolute; background-color:#ffffff;
+      right:0;}
+.date_pre{position:absolute; left:90px; top:55px;}
+.date_next{position:absolute; right:90px; top:55px;}
+.date_t>h4{position:absolute; top:-35px; font-size:19px;}
+.date>h5{text-align: center; margin-top:40px;}
+.date>h3{text-align: center;}
+.month{width:88.8%; height:310px; margin:0 auto;}
+.week{padding-left:23px; padding-top:20px;}
+.week>li{float:left; margin-right:80px; font-weight: 800;}
+.week>li:last-child{margin-right:0px; color:#6fabf6;}
+.week>li:first-child{color:#ff7777;}
+
+.month_c{padding-left:23px;}
+.month_c>li{float:left; width:20px; height:20px; line-height: 20px; margin-right:75px;
+            margin-top:30px;}
+.month_c>li>a{color:#333333;}
+.month_c>li:nth-child(1){background-color:#bbbbbb;}
+.month_c>li>a:nth-child(1):hover{color:#f53e06;}
+.month_c>li:nth-child(7){margin-right:0px;}
+.month_c>li:nth-child(14){margin-right:0px;}
+.month_c>li:nth-child(21){margin-right:0px;}
+.month_c>li:nth-child(28){margin-right:0px;}
+.month_c>li:nth-child(35){margin-right:0px;}
+.month_c>li:nth-child(4):active{background-color:#f53e06;}
+
+.select{position:absolute; bottom:20px; left:240px;}
+.box1{display: inline-block;width:20px; height: 20px; 
+      border:1px solid #333333; box-sizing: border-box;}
+
+.box2{display: inline-block; width:20px; height:20px;
+      border:1px solid #333333; background-color:#f53e06;
+      box-sizing: border-box;
+      margin-left:40px;}
+
+/*시간선택*/
+.time{width:1466px; height:260px; position:absolute; bottom:150px;;
+      background-color:#ffffff;}
+.time_t{position:absolute; top:-35px;}
+.time_t>h4{font-size:19px;}
+.time_t>h4>span{font-weight: normal; font-size:14px;}
+.time_1{}
+.time_1>li{float:left; border-right:1px solid #333333; line-height: 15px; padding-left:10px;
+          padding-right:10px; margin-top:20px; margin-left:20px;}
+.time_1>li:last-child{border-right:0px;}
+
+.time_1_box{width:1000px; height:90px; float:left; padding-top:20px; padding-left:30px;}
+.time_1_box>ul>li{float:left; width:250px; height:60px; text-align: center;
+                  line-height: 60px; border:1px solid #333333; box-sizing: border-box;}
+.time_1_box>ul>li:hover{background-color:#dddddd;}
+.time_2>li{float:left; border-right:1px solid #333333; line-height: 15px; padding-left:10px;
+          padding-right:10px; margin-top:20px; margin-left:20px;}
+.time_2>li:last-child{border-right:0px;}
+.time_2_box>ul>li:hover{background-color:#dddddd;}
+.time_2_box{width:1000px; height:90px; float:left; padding-top:20px; padding-left:30px;}
+.time_2_box>ul>li{float:left; width:250px; height:60px; text-align: center;
+                  line-height: 60px; border:1px solid #333333; box-sizing: border-box;}
+
+
+
+
+
+@media (max-width:1880px) {
+     #sub_img{background:url(../img/subimg_movoile.jpg)no-repeat;
+             background-size:cover;}
+    #sub_img h4{font-size:2em; padding-top:230px;}
+    #sub_contents{width:100%; height:1930px;}
+    .sub_c_set{width:66.6%; height:800px;}
+    .movie_list{width:83.33%; left:14.02%;}
+    .movie_list>a:last-child{padding-left:0;}
+    .movie_list>a{padding-right:0.5%; padding-left:0;}
+    .movie_list>a:nth-child(4){padding-left:0;}
+    .next{right:5%; top:150px;}
+    .prevent{left:-9%; top:150px;}
+    .review{display: none;}
+    .after_menu{width:76.35%; height:800px;}
+    .theater{width:49.5%; left:0; }
+    .t_list{height:70px;}
+    .date{width:49.5%; top:0px; left:52%;}
+    .time{width:100%; top: 650px; left:1%;}
+    
+}
+
+
+
+@media (max-width:1280px) {
+    #sub_img{background:url(../img/subimg_movoile.jpg)no-repeat;
+             background-size:cover;}
+    #sub_img h4{font-size:2em; padding-top:230px;}
+    #sub_contents{width:100%; height:2787px;}
+    .sub_c_set{width:66.6%; height:1100px;}
+    .movie_list{width:83.33%; left:15.02%;}
+    .movie_list>a:last-child{padding-left:5%;}
+    .movie_list>a:nth-child(4){padding-left:14%;}
+    .next{right:5%; top:350px;}
+    .prevent{left:-9%; top:350px;}
+    .review{display: none;}
+    .after_menu{width:76.35%;}
+    .theater{width:79.7%; left:10%; }
+    .date{width:79.7%; top:610px; left:10%;}
+    .time{width:100%; top: 1250px;}
+    
+    
+}
+
+
+@media (max-width:1038px) {
+    
+    #sub_img{background:url(../img/subimg_movoile.jpg)no-repeat;
+             background-size:cover;}
+    #sub_img h4{font-size:2em; padding-top:230px;}
+    #sub_contents{width:100%; height:2500px;}
+    .sub_c_set{width:66.6%; height:800px;}
+    .movie_list{width:83.33%; left:15.02%;}
+    .movie_list>a{position:absolute; width:70%; height:500px; padding-right:0;
+                  padding-left:0; margin:0; left:8%;}
+    .movie_list_a:nth-child(2){z-index: 999; 
+    }
+    .movie_list a img{width:100%; height:100%;}
+    .movie_list>a:last-child{padding-left:0;}
+    .movie_list>a:nth-child(4){padding-left:0;}
+    .next{right:5%; top:200px;}
+    .prevent{left:-9%; top:200px;}
+    .review{display: none;}
+    .after_menu{width:76.35%;}
+    .theater{width:100%; left:0; }
+    .t_list>li{width:20%;}
+    .my{width:100%;}
+    .theater_list>li{width:100%;}
+    .date{width:100%; top:610px; left:0;}
+    .week{padding-left:0;}
+    .week>li{margin-right:13%;}
+    .month_c{padding-left:0;}
+    .month_c>li{margin-right:12%;}
+    .time{width:100%; top: 1250px;}
+    .time_1_box{width:200%;}
+    .time_2_box{width:200%;}
+    .time_1_box>ul>li{width:33%;}
+    .time_2_box>ul>li{width:33%;}
+    .select{left:28%;}
+    .footer_l{right:21.22%;}
+    
+    
+}
+
+
+
+@media (max-width:1024px) {
+     #sub_img{background:url(../img/subimg_movoile.jpg)no-repeat;
+             background-size:cover;}
+    #sub_img h4{font-size:2em; padding-top:230px;}
+    #sub_contents{width:100%; height:2500px;}
+    .sub_c_set{width:66.6%; height:800px;}
+    .movie_list{width:83.33%; left:15.02%;}
+    .movie_list>a{position:absolute; width:70%; height:500px; padding-right:0;
+                  padding-left:0; margin:0; left:8%;}
+    .movie_list_a:nth-child(2){z-index: 999; 
+    }
+    .movie_list a img{width:100%; height:100%;}
+    .movie_list>a:last-child{padding-left:0;}
+    .movie_list>a:nth-child(4){padding-left:0;}
+    .next{right:5%; top:200px;}
+    .prevent{left:-9%; top:200px;}
+    .review{display: none;}
+    .after_menu{width:76.35%;}
+    .theater{width:100%; left:0; }
+    .t_list>li{width:20%;}
+    .my{width:100%;}
+    .theater_list>li{width:100%;}
+    .date{width:100%; top:610px; left:0;}
+    .week{padding-left:0;}
+    .week>li{margin-right:13%;}
+    .month_c{padding-left:0;}
+    .month_c>li{margin-right:12%;}
+    .time{width:100%; top: 1250px;}
+    .time_1_box{width:200%;}
+    .time_2_box{width:200%;}
+    .time_1_box>ul>li{width:33%;}
+    .time_2_box>ul>li{width:33%;}
+    .select{left:28%;}
+    .footer_l{right:21.22%;}
+    
+}
+
+
+@media (max-width:768px) {
+    #sub_img{background:url(../img/subimg_movoile.jpg)no-repeat;
+             background-size:cover;}
+    #sub_img h4{font-size:2em; padding-top:230px;}
+    #sub_contents{width:100%; height:2500px;}
+    .sub_c_set{width:66.6%; height:800px;}
+    .movie_list{width:83.33%; left:15.02%;}
+    .movie_list>a{position:absolute; width:70%; height:500px; padding-right:0;
+                  padding-left:0; margin:0; left:8%;}
+    .movie_list_a:nth-child(2){z-index: 999; 
+    }
+    .movie_list a img{width:100%; height:100%;}
+    .movie_list>a:last-child{padding-left:0;}
+    .movie_list>a:nth-child(4){padding-left:0;}
+    .next{right:5%; top:200px;}
+    .prevent{left:-9%; top:200px;}
+    .review{display: none;}
+    .after_menu{width:76.35%;}
+    .theater{width:100%; left:0; }
+    .t_list>li{width:20%;}
+    .my{width:100%;}
+    .my>h3{width:35%;}
+    .local{width:35%;}
+    .local>li{width:100%;}
+    .theater_list>li{width:100%;}
+    .date{width:100%; top:610px; left:0;}
+    .week{padding-left:0;}
+    .week>li{margin-right:13%;}
+    .month_c{padding-left:0;}
+    .month_c>li{margin-right:12%;}
+    .time{width:100%; top: 1250px;}
+    .time_1_box{width:100%;}
+    .time_2_box{width:100%;}
+    .time_1_box>ul>li{width:33%;}
+    .time_2_box>ul>li{width:33%;}
+    .select{left:26%;}
+}
+
+
+
+@media (max-width:385px) {
+    #sub_img{background:url(../img/subimg_movoile.jpg)no-repeat;
+             background-size:cover;}
+    #sub_img h4{font-size:2em; padding-top:230px;}
+    #sub_contents{width:100%; height:2500px;}
+    .sub_c_set{width:66.6%; height:800px;}
+    .movie_list{width:83.33%; left:15.02%;}
+    .movie_list>a{position:absolute; width:70%; height:500px; padding-right:0;
+                  padding-left:0; margin:0; left:8%;}
+    .movie_list_a:nth-child(2){z-index: 999; 
+    }
+    .movie_list a img{width:100%; height:100%;}
+    .movie_list>a:last-child{padding-left:0;}
+    .movie_list>a:nth-child(4){padding-left:0;}
+    .next{right:5%; top:200px;}
+    .prevent{left:-9%; top:200px;}
+    .review{display: none;}
+    .after_menu{width:76.35%;}
+    .theater{width:100%; left:0; }
+    .t_list>li{width:20%;}
+    .t_list>li>a{font-size:12px;}
+    .t_list>li>a:nth-child(1){padding-right:-3px;}
+    .t_list>li>a:nth-child(2){}
+    .my{width:100%;}
+    .my>h3{width:40%;}
+    .local{width:40%;}
+    .local>li{width:100%;}
+    
+    .theater_list>li{width:100%; height:50px;}
+    .theater_list{float:right; margin-top:-370px;}
+    .theater_list>li>p{line-height: 20px;}
+    .date{width:100%; top:610px; left:0;}
+    .week{padding-left:1%;}
+    .week>li{margin-right:9%;}
+    .month_c{padding-left:0;}
+    .month_c>li{margin-right:7%;}
+    
+    .time{width:100%; top: 1250px;}
+    .time_1_box{width:100%;}
+    .time_2_box{width:100%;}
+    .time_1_box>ul>li{width:32%;}
+    .time_2_box>ul>li{width:32%;}
+    .select{left:4%;}
+}
+
+
+
